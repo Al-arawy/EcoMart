@@ -1,0 +1,109 @@
+@media (min-width: 576px) {
+    header .icons .login .user {
+        width: 450px;
+    }
+    .home {
+        .carousel .carousel-inner {
+            img{
+                left: -700px;
+            }
+            .title {
+                margin-left: 20px;
+            }
+        }
+    }
+    .products .container .offer {
+        p {
+            font-size: 18px;
+        }
+    }
+    .products .container .offer .countdown {
+        padding: 15px;
+        span {
+            font-size: 30px;
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    @keyframes brand {
+        to {
+            transform: translateX(-400px);
+        }
+    }
+}
+@media (min-width: 768px) {
+    header .links {
+        all: unset;
+    }
+    header .links li a {
+        &:hover {
+            margin-left: 0;
+        }
+    }
+    header .icons {
+        input {
+            max-width: unset;
+        }
+    }
+    header .icons .navbar-toggler {
+        display: none;
+    }
+    header .links .search {
+        display: none;
+    }
+    /* Start Landing Page */
+    .home {
+        .carousel .carousel-inner {
+            img{
+                left: -600px;
+            }
+            .title {
+                width: 50%;
+                margin-left: 50px;
+                h1 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    .products .container .brands .slider {
+        img {
+            margin: 0 40px;
+        }
+    }
+    @keyframes brand {
+        to {
+            transform: translateX(-400px);
+        }
+    }
+}
+@media (min-width: 992px) {
+    .home {
+        .carousel .carousel-inner {
+            img{
+                left: -400px;
+            }
+            .title {
+                margin-left: 80px;
+            }
+        }
+    }
+    @keyframes brand {
+        to {
+            transform: translateX(-100px);
+        }
+    }
+}
+@media (min-width: 1200px) {
+    .home {
+        .carousel .carousel-inner {
+            img{
+                left: 0;
+            }
+            .title {
+                margin-left: 100px;
+            }
+        }
+    }
+}
