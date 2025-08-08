@@ -9,7 +9,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 :root {
-    --primary-color: #5a5e56;
+    --primary-color: #fff;
     --secondary-color: #00dfcc;
     --white-color: #fff;
 }
@@ -261,12 +261,12 @@ header .icons .login .user {
             transform: translateY(-50%);
             h1 {
                 font-size: 20px;
-                color: #000;
+                color: #000 !important;
             }
             .btn {
                 margin-top: 20px;
                 padding: 10px 15px;
-                color: var(--primary-color);
+                color: #fff !important;
                 background: var(--secondary-color);
                 font-weight: bold;
                 transition: linear 0.3s;
