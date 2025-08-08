@@ -261,6 +261,7 @@ header .icons .login .user {
             transform: translateY(-50%);
             h1 {
                 font-size: 20px;
+                color: #000;
             }
             .btn {
                 margin-top: 20px;
