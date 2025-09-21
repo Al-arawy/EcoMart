@@ -11,7 +11,7 @@ body {
 :root {
     --primary-color: #fff;
     --secondary-color: #00dfcc;
-    --white-color: #fff;
+    --black-color: #000;
 }
 header {
     height: 80px;
@@ -20,6 +20,7 @@ header {
     box-shadow: 0 4px 10px;
     z-index: 9999;
     .logo a {
+        color: var(--black-color) !important;
         font-size: 20px;
         font-weight: bold;
         letter-spacing: 1px;
@@ -85,7 +86,7 @@ header .icons .cart {
         min-height: 250px;
         max-height: 500px;
         overflow: auto;
-        color: var(--white-color);
+        color: var(--black-color);
         background: var(--primary-color);
         position: fixed;
         top: 70px;
@@ -116,6 +117,7 @@ header .icons .cart {
                 white-space: nowrap;
                 text-overflow: ellipsis;
                 p {
+                    color: var(--black-color) !important;
                     font-size: 12px;
                 }
             }
@@ -135,7 +137,7 @@ header .icons .cart {
             width: 100%;
             padding: 10px 0;
             margin: 10px auto;
-            color: var(--white-color);
+            color: var(--primary-color);
             background: var(--secondary-color);
             text-align: center;
             border-radius: 5px;
@@ -145,7 +147,7 @@ header .icons .cart {
 header .icons .login .user {
     width: 340px;
     padding: 30px;
-    background: var(--white-color);
+    background: var(--primary-color);
     position: fixed;
     top: 50%;
     left: 50%;
@@ -287,7 +289,7 @@ section:not(:first-of-type) {
 /* Start Section About Us */
 .about .container .info-section {
     p {
-        color: var(--primary-color);
+        color: var(--black-color);
         span {
             color: var(--secondary-color);
         }
@@ -512,14 +514,14 @@ footer .social {
     }
 }
 footer .copy {
-    color: #ccc;
+    color: var(--black-color);
     width: 100%;
     padding: 20px 0;
     text-align: center;
     text-transform: capitalize;
     border-top: solid 1px #444;
     span {
-        color: #fff;
+        color: var(--secondary-color);
         text-transform: initial;
     }
 }
